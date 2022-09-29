@@ -39,6 +39,11 @@ a:link {
     font-size: 21px; /*todo: update to em equiv*/
 }
 
+footer {
+    text-align: right;
+    color: var(--colour-emphasis);
+}
+
 /*LAYOUT*/
 .hero video {
     display: block;
