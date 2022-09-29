@@ -3,6 +3,7 @@
     --colour-background: black;
     --colour-foreground: white;
     --colour-accent: aquamarine;
+    --colour-emphasis: grey;
     --gap-base: 1rem;
 }
 
@@ -23,8 +24,18 @@ h1 {
     font-size: 50px; /*todo: update to em equiv*/
 }
 
+h2 {
+    font-size: 42px; /*todo: update to em equiv*/
+    font-weight: 300;
+}
+
 a:link {
     color: var(--colour-accent);
+}
+
+.features .emphasis {
+    color: var(--colour-emphasis);
+    font-size: 21px; /*todo: update to em equiv*/
 }
 
 /*LAYOUT*/
