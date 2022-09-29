@@ -44,3 +44,7 @@ a:link {
     display: block;
     margin: calc(var(--gap-base) * 1.5) auto;
 }
+
+.coming-soon img {
+    margin-top: var(--gap-base);
+}
