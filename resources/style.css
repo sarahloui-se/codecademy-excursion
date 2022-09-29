@@ -1,0 +1,26 @@
+/*VARIABLES & BASICS*/
+:root {
+    --colour-background: black;
+    --colour-foreground: white;
+    --colour-accent: aquamarine;
+}
+
+html {
+    font-size: 100%; /*16px based on stock standard browser defaults*/
+}
+
+/*STYLING*/
+body {
+    background: var(--colour-background);
+    color: var(--colour-foreground);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px; /*todo: update to em equiv*/
+}
+
+a:link {
+    color: var(--colour-accent);
+}
